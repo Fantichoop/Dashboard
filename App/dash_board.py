@@ -1,51 +1,52 @@
 import streamlit as st
 import pandas as pd
 
-# Load the data
+# Загрузка данных
 data = pd.read_csv('your_data.csv')
 
-# Set the page title
+# Установика заголовка страницы
 st.title('Data Monitoring Dashboard')
 
-# Display the data
+# Отображение данных
 st.subheader('Data Overview')
 st.write(data.head())
 
-# Show data statistics
+# Показ статистики данных
 st.subheader('Data Statistics')
 st.write(data.describe())
 
-# Visualize data using charts
+# Визуализация данных при помощи диаграм
 st.subheader('Data Visualization')
 
-# Bar chart
+# Диаграмма - столбы
 st.subheader('Bar Chart')
 bar_chart_data = data['column_name'].value_counts()
 st.bar_chart(bar_chart_data)
 
-# Line chart
+# Диаграмма - линейная
 st.subheader('Line Chart')
 line_chart_data = data['column_name']
 st.line_chart(line_chart_data)
 
-# Area chart
+# Диаграмма площади
 st.subheader('Area Chart')
 area_chart_data = data['column_name']
 st.area_chart(area_chart_data)
 
-# Scatter plot
+# Точечный график
 st.subheader('Scatter Plot')
 scatter_plot_data = data[['column_name_1', 'column_name_2']]
 st.scatterplot(scatter_plot_data['column_name_1'], scatter_plot_data['column_name_2'])
 
-# Add other visualizations as needed
+# Добавление других визуализаций по мере необходимости
 
-# Show raw data
+# Показывает необработанные данные
 st.subheader('Raw Data')
 st.write(data)
 
-# Add interactivity (optional)
-# Example: Filter data based on a specific condition
+# Добавляет интерактивность(необязательно)
+# Интерактивность - степень взаимодействия между субъектами и объектами
+# Пример: Фильтрация данных на основе определенного условия
 st.sidebar.title('Filter Data')
 selected_category = st.sidebar.selectbox('Select Category', data['category'].unique())
 filtered_data = data[data['category'] == selected_category]
