@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather in Tomsk</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <meta http-equiv="refresh" content="60"> <!-- Обновление страницы каждую минуту -->
+</head>
+<body>
+    <div class="container" id="weather-container">
+        <div class="header">
+            <h1>Weather in Tomsk</h1>
+            <h2>on {{ weather_data[7].strftime('%Y-%m-%d %H:%M:%S') }}</h2>
+        </div>
+        <div class="weather-info">
+
+            <p><font size="6"> Weather {{ weather_data[0] }}    |  {{ weather_data[3] }} °C </font></p>
+            <p>Humidity {{ weather_data[2] }}% | Clouds  {{ weather_data[6] }}% | Wind {{ weather_data[1] }} m/s</p>
+
+
+        </div>
+    </div>
+</body>
+</html>
