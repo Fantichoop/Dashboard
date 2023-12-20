@@ -1,0 +1,75 @@
+body {
+    background-image: linear-gradient(150deg, #383040 20%, #120e1a 74%);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100vh;
+}
+
+.container {
+    color: white;
+    position: relative;
+    bottom: -200px;
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 10px;
+    background: rgba(17, 20, 35, 33);
+    border: 1px solid white;
+    border-radius: 30px;
+    text-align: center;
+}
+
+h1 {
+	font-size: 60px;
+}
+
+p {
+	font-size: 25px;
+}
+/*Дальше кнопка перехода на главную страницу */
+
+.main_data{
+	position: relative;
+	bottom: 240px;
+	left: 10px;
+	max-width: 150px;
+}
+
+.button1 {
+	padding: 10px;
+	font-size: 10px;
+	background-color: #22173f;
+	color: white;
+	cursor: pointer;
+}
+
+.search_data {
+	position: relative;
+	bottom: 240px;
+	left: 10px;
+	max-width: 150px;
+
+}
+
+.button2 {
+	padding: 10px;
+	font-size: 10px;
+	background-color: #22173f;
+	color: white;
+	cursor: pointer;
+}
+
+.table_data {
+	position: relative;
+	bottom: 240px;
+	left: 10px;
+	max-width: 150px;
+
+}
+
+.button3 {
+	padding: 10px;
+	font-size: 10px;
+	background-color: #22173f;
+	color: white;
+	cursor: pointer;
+}
