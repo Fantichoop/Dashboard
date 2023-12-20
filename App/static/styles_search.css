@@ -1,0 +1,147 @@
+body {
+	background-image: linear-gradient(150deg, #383040 20%, #120e1a 74%);
+	font-family: Arial, sans-serif;
+	margin: 0;
+	height: 250vh;
+}
+
+/*Дальше таблица обновления */
+.container_update {
+	color: white;
+	position: relative;
+	left: 450px;
+	bottom: -245px;
+	max-width: 260px;
+	margin: 0 auto;
+	padding: 10px;
+	background: rgba(17, 20, 35, 33);
+	border: 1px solid white;
+	border-radius: 30px;
+}
+
+.Name_page {
+	color: white;
+	max-width: 400px;
+	border: 1px solid white;
+	background: rgba(17, 20, 35, 33);
+	text-align: center;
+	position: relative;
+	bottom: -10px;
+	left: 10px;
+}
+
+/*Дальше кнопка поиска по дате */
+.cont-search {
+	position: relative;
+	left: 450px;
+	bottom: 1440px;
+	margin: 0 auto;
+	padding: 10px;
+	color: white;
+	border: 1px solid white;
+	border-radius: 30px;
+	background: rgba(17, 20, 35, 33);
+}
+/* Добавим стили для формы поиска */
+#search-date {
+	margin-top: 20px;
+	max-width: 250px;
+}
+
+#datepicker {
+	padding: 10px;
+	font-size: 16px;
+}
+
+#search-btn {
+	padding: 10px;
+	font-size: 16px;
+	background-color: #22173f;
+	color: white;
+	cursor: pointer;
+}
+
+/*Дальше кнопка перехода на главную страницу */
+.main_table {
+  position: relative;
+	max-width: 128px;
+	margin: 0 auto;
+	bottom: 1615px;
+	left: -125px;
+	padding: 10px;
+}
+
+.button1 {
+	padding: 10px;
+	font-size: 10px;
+	background-color: #22173f;
+	color: white;
+	cursor: pointer;
+}
+
+.table_data {
+    max-width: 100px;
+    position: relative;
+    margin: 0 auto;
+		bottom: 1620px;
+		left: -137px;
+		
+}
+
+.button2 {
+    padding: 10px;
+	font-size: 10px;
+	background-color: #22173f;
+	color: white;
+	cursor: pointer;
+}
+
+h5 {
+	position: relative;
+	bottom: -300px;
+	left: 10px;
+}
+
+h6 {
+	position: relative;
+	bottom: -300px;
+	left: 10px;
+}
+
+h7 {
+	position: relative;
+	bottom: -300px;
+	left: 10px;
+}
+
+h8 {
+	position: relative;
+	bottom: -325px;
+	left: 10px;
+}
+
+.table_max {
+	color: white;
+	max-width: 300px;
+	position: relative;
+	bottom: 1600px;
+	padding: 10px;
+	background: rgba(17, 20, 35, 33);
+  border: 1px solid white;
+  border-radius: 30px;
+	text-align: left;
+
+}
+
+.table_min {
+	color: white;
+	max-width: 300px;
+	position: relative;
+	bottom: 1877px;
+	left: 350px;
+	padding: 10px;
+	background: rgba(17, 20, 35, 33);
+  border: 1px solid white;
+  border-radius: 30px;
+	text-align: left;	
+}

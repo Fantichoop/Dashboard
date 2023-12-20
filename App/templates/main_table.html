@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather in Tomsk</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles_main_table.css') }}">
+    <meta http-equiv="refresh" content="60"> <!-- Обновление страницы каждую минуту -->
+</head>
+<body>
+    <div class="container_update" id="update-container">
+        <p>Updated {{ weather_data[5].strftime('%Y-%m-%d %H:%M:%S') }}</p>
+    </div>
+
+    
+    <h5>{{ graph_html|safe }}</h5>
+
+    <h6>{{ graph_html2|safe }}</h6>
+
+    <h3>{{ graph_html3|safe }}</h3>
+
+    <h4>{{ graph_html4|safe }}</h4>
+
+    <div class="main_table" id="main-date">
+      <form><button class="button2" formaction="http://127.0.0.1:5000">Обратно на main page</button></form>
+    </div>
+
+    <div class="search_data">
+      <form><button class="button1" formaction="http://127.0.0.1:5000/main_search">Поиск по дате</button></form>
+    </div>
+
+    <div class="table_max" id="max">
+        <h1>Максимальные значения</h1>
+        <p>Temperature {{ max_temperature }} °C</p>
+        <p>Wind speed {{ max_wind_speed }} km/h</p>
+        <p>Humidity {{ max_humidity }} %</p>
+        <p>Clouds {{ max_clouds }} %</p>
+    </div>
+
+    <div class="table_min" id="min">
+        <h1>Минимальные значения</h1>
+        <p>Temperature {{ min_temperature }} °C</p>
+        <p>Wind speed {{ min_wind_speed }} km/h</p>
+        <p>Humidity {{ min_humidity }} %</p>
+        <p>Clouds {{ min_clouds }} %</p>
+    </div>
+</body>
+</html>

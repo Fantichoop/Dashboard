@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date not found</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles_not_search.css') }}">
+</head>
+<body>
+    <div class="container" id="weather-container">
+        <h1>Date Not Found</h1>
+        <p>The selected date was not found in the database.</p>
+    </div>
+
+    <div class="main_data">
+      <form><button class="button1" formaction="http://127.0.0.1:5000">Обратно на main page</button></form>
+    </div>
+
+    <div class="search_data">
+      <form><button class="button2" formaction="http://127.0.0.1:5000/main_search">Поиск по дате</button></form>
+    </div>
+
+    <div class="table_data">
+      <form><button class="button3" formaction="http://127.0.0.1:5000/main_table">За всё время</button></form>
+    </div>
+</body>
+</html>
