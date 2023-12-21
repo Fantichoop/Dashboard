@@ -1,0 +1,86 @@
+body {
+    background-image: linear-gradient(150deg, #383040 20%, #120e1a 74%);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100vh;
+}
+
+
+.container_update {
+    color: white;
+    max-width: 260px;
+    position: relative;
+    bottom: -580px;
+    left: 460px;
+    margin: 0 auto;
+    padding: 10px;
+    background: rgba(17, 20, 35, 33);
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+.cont-search {
+    font-size: 40px;
+    position: relative;
+    bottom: -100px;
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    background: rgba(17, 20, 35, 33);
+}
+
+/* Добавим стили для формы поиска */
+#search-date {
+    margin-top: 10px;
+    max-width: 510px;
+}
+
+#datepicker {
+    padding: 10px;
+    font-size: 16px;
+}
+
+#search-btn {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #22173f;
+    color: white;
+    cursor: pointer;
+}
+
+.main_page {
+    max-width: 150px;
+    position: relative;
+    margin: 0 auto;
+    bottom: 375px;
+	left: -530px;
+}
+
+.button1 {
+    position: relative;
+	padding: 10px;
+	font-size: 10px;
+	background-color: #22173f;
+	color: white;
+	cursor: pointer;
+}
+
+.table_data {
+    max-width: 100px;
+    position: relative;
+    margin: 0 auto;
+    bottom: 410px;
+	left: -425px;
+    
+}
+
+.button2 {
+    position: relative;
+	padding: 10px;
+	font-size: 10px;
+	background-color: #22173f;
+	color: white;
+	cursor: pointer;
+}
