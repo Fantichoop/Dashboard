@@ -1,0 +1,106 @@
+body {
+    background-image: linear-gradient(150deg, #383040 20%, #120e1a 74%);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 250vh;
+}
+
+.container_update {
+    color: white;
+    position: relative;
+		font-size: 18px;
+    max-width: 260px;
+    margin: 0 auto;
+		bottom: -15px;
+		left: 450px;
+    padding: 10px;
+    background: rgba(17, 20, 35, 33);
+    border: 1px solid white;
+    border-radius: 30px;
+		text-align: center;
+}
+
+h5 {
+	position: relative;
+	bottom: -300px;
+	left: 10px;
+}
+
+h6 {
+	position: relative;
+	bottom: -300px;
+	left: 10px;
+}
+
+h3 {
+	position: relative;
+	bottom: -300px;
+	left: 10px;
+}
+
+h4 {
+	position: relative;
+	bottom: -325px;
+	left: 10px;
+}
+
+.main_table {
+  position: relative;
+	max-width: 128px;
+	margin: 0 auto;
+	bottom: 1380px;
+	left: -530px;
+}
+
+.search_data {
+	position: relative;
+	max-width: 128px;
+	margin: 0 auto;
+	bottom: 1415px;
+	left: -400px;
+}
+
+.button2 {
+	position: relative;
+	padding: 10px;
+	font-size: 10px;
+	background-color: #22173f;
+	color: white;
+	cursor: pointer;
+}
+
+.button1 {
+	position: relative;
+	padding: 10px;
+	font-size: 10px;
+	background-color: #22173f;
+	color: white;
+	cursor: pointer;
+}
+
+.table_max {
+	color: white;
+	max-width: 300px;
+	position: relative;
+	bottom: 1368px;
+	left: 10px;
+	padding: 10px;
+	background: rgba(17, 20, 35, 33);
+  border: 1px solid white;
+  border-radius: 30px;
+	text-align: left;
+
+}
+
+.table_min {
+	color: white;
+	max-width: 300px;
+	position: relative;
+	bottom: 1607px;
+	left: 410px;
+	padding: 10px;
+	background: rgba(17, 20, 35, 33);
+  border: 1px solid white;
+  border-radius: 30px;
+	text-align: left;	
+}
